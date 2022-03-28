@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+body{ 
+    /* rgb(255,255,255) */
+    background-color:white  ;
+    width: 100%;height: 2000px;
+    font: 13px "Roboto",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color:  #66645c;
+    margin-top: 0;
+    margin: 0 auto;
+}
+/* Header 1 */
+#header1{
+    background-color:rgb(243,243,243);
+    width: 100%;height: 40px;
+}
+#realheader1{
+    width: 1180px;
+    margin: 2px auto;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+#realheader1 img {
+    margin:5px 5px 0 10px;
+}
+#realheader1 >div>div{
+    display: none;
+    position: absolute;
+    border: 1px solid #565656;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 300px;height: auto;
+    padding:15px  ;
+    top:35px;
+    font-family: "Montserrat-Light",sans-serif !important;
+    font-size: 13px;
+    text-align: center;
+}
+#realheader1-submenu:hover>div{
+    display: block;
+}
+/*  End Header 1 ------------------*/
+/* Header 2 */
+#header2{
+    background-color: #ffffff;
+    width: 100%;height: 85px;
+}
+#realheader2{
+    width: 1180px;
+    margin: 0 auto;
+}
+button{
+    width: 580px;
+    height: 36px;
+    background-color:rgb(243,243,243);
+    border-radius: 18px;
+    outline: none;
+    border: 1px rgb(184, 180, 180) solid;
+    margin-left: 40px;
+    margin-top: 27px;
+}
+button label{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+button input{
+    outline: none;
+    border: none;
+    background-color:rgb(243,243,243);
+    margin-top: 3px;
+}
+button button{
+    width: 10px;
+    height: 10px;
+}
+button label #searchbook{
+    background-color:rgb(8, 123, 57);
+    color: white;
+    font-size: medium;
+    line-height: 22px;
+
+}
+#cart{
+    float: right;
+}
+#cart img{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+#cart div{
+    float: right;
+    line-height: 50px;
+    margin-top: 20px;
+}
+/* End Header 2 -----------------*/
+a{
+    color:  black;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+/* Header 3 */
+#header3{
+    width: 100%;
+    height: 45px;
+    clear: both;
+    background-color: rgb(8, 123, 57) ;
+}
+#realheader3{
+    width: 1180px;
+    margin: 0 auto;
+}
+#realheader3 img{
+    margin-right: 35px;
+    float: left;
+    margin-top: 5px;
+}
+#realheader3 div{
+    line-height: 45px;
+    color: white;
+    float: left;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+/* End Header 3 */
+article{
+    height: 1850px;width: 1180px;
+    margin: 0 auto;
+}
+/* Link */
+#link{
+    margin-top: 50px;
+    width: 1180px;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Montserrat-Light' !important;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(61, 60, 60);
+    letter-spacing: 0.3px;
+    margin: 45px auto 30px auto;
+}
+/* <!-- End Link --> */
+/* <!-- Kind of book --> */
+#kindofbook{
+    width: 275px;height: 1670px;
+    border: 2px rgb(243,243,243) solid;
+}
+.kindofbook1 a{
+    height: 36px;width: 260px;
+    border-bottom:1px silver dashed ;
+    white-space: normal;
+    color: #000;
+    font-size: 13px !important;
+    text-transform: capitalize;
+    font: 15px "Roboto",Arial,Helvetica,sans-serif;
+    line-height: 36px;
+    display: block;
+    position: relative;
+    padding-left: 15px;
+    font-weight: 500;
+}
+.kindofbook1 a label{
+    position: absolute;right: 10px;
+}
+.kindofbook2 a{
+    font-weight: normal;
+    font-style: normal;
+    font: 13px "Roboto",Arial,Helvetica,sans-serif;
+    height: 36px;width: 260px;
+    border-bottom:1px silver dashed ;
+    white-space: normal;
+    color: #000;
+    line-height: 36px;
+    display: block;
+    position: relative;
+    padding-left: 15px;
+}
+.kindofbook2 a label{
+    position: absolute;right: 10px;
+}
+/* <!-- End Kind of book --> */
+/* Listbook */
+#listbook{
+    margin-left: 320px;
+    display: block;
+}
+.reallistbook1{
+    margin-top: 50px;
+    color: #008340;
+    font-size: 22px;
+    white-space: nowrap;
+    border-bottom: 1px dashed silver;
+    padding-bottom: 5px;
+    font-family: 'Montserrat-Light' !important;
+}
+.reallistbook1-1{
+    height: 300px;width: 850px;
+    margin-bottom: 50px;
+}
+.reallistbook1-1box{
+    height: 230px;width: 120px;
+    position: relative;
+    margin-left: 30px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+.reallistbook1-1box-1{
+    position: absolute;
+    width: 76px;
+    height: 18px;
+    right:0px;
+}
+.reallistbook1-1box-2{
+    margin-top: 18px;
+    height: 160px;
+    width: 115px;
+}
+.reallistbook1-1boxname{
+    margin-top: 20px;
+    height: 35px;
+    display: inline-block;
+    text-align: left;
+    color: #2b2b2b;
+    font-size: 13px;
+}
+.reallistbook1-1boxprice{
+    font: 15px "Roboto",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Montserrat-Light' !important;
+}
+.reallistbook1-1boxdiscount{
+    position: absolute;
+    top: 150px;
+    right: -5px;
+    height: 25px;
+    width: 35px;
+    background-color: #ef3f42;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 25px;
+}
+.reallistbook1-1boxprice div{
+    font-size: 18px ;
+    font-family: 'Montserrat-Light' !important;
+    color: red;
+}
+.reallistbook1-1box:hover .reallistbook1-1box-2{
+    box-shadow: 0 0 5px blue;
+}
+.reallistbook1-1box:hover a div,p{
+    color: green;
+}
+.page{
+    display: inline;
+    width: 30px;height: 30px;
+    background-color:#fff;
+    margin-right: 20px;
+    float: right;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.page:hover{
+    background-color: green;
+    color: white;
+}
+#chonbt{
+    width: 100px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 5px;
+    background-color: rgb(24, 161, 47);
+    color: white;
+    font-size: 15px;
+}
+/*End Listbook */
+
+
+
+
+/* Footer 1 */
+#footer1{
+    margin-top: 10px;
+    clear: both;
+    width: 100%;height: 80px;
+    background-color: rgb(8, 123, 57) ;
+    color: white;
+}
+#realfooter1{
+    width: 1180px;
+    margin: 0 auto;
+}
+#realfooter1 h1,h2{
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    float: left;margin-right: 20px;
+}
+#realfooter1-1 h1{
+    padding-top: 30px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Montserrat-Bold';
+    padding-right: 20px;
+    line-height: 5px;
+}
+#realfooter1-1 h2{
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 5px;
+    display: block;clear: left;
+    padding-top: 15px;
+
+}
+#realfooter1-5{
+    width: 100px;
+}
+#realfooter1-2 input{
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 38px;
+    width: 180px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    padding-left: 5px;
+}
+#realfooter1-3 input{
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 38px;
+    width: 280px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    padding-left: 5px;
+}
+#realfooter1-4 {
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 38px;
+    width: 180px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+}
+#realfooter1-4:focus{
+    box-shadow: 0 0 5px white;
+}
+#realfooter1-5{
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 38px;
+    width: 170px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    margin-left: 8px;
+    color: green;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+/* End Footer 1 */
+/* Footer 2 */
+#footer2{
+    width: 100%;height:600px;
+    border-bottom: 1px rgb(206, 196, 196) solid;
+    background-color: white;
+}
+#realfooter2{
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+.realfooter2-1{
+    float: left;
+    font-family: 'Montserrat-Light' !important;
+    margin-top: 35px;
+}
+.realfooter2-1 h1{
+    color: black;
+    font: 14px "Roboto",Arial,Helvetica,sans-serif;
+   line-height: 0px;
+   text-transform: uppercase;
+   font-weight: normal;
+   margin-bottom: 30px;
+}
+.realfooter2-1 h2 a{
+    /* font: 15px  'Montserrat-Light' sans-serif !important; */
+    font: 13px "Roboto",Arial,Helvetica,sans-serif;
+    white-space: nowrap;
+    font-style: normal;
+    line-height: 25px;
+    color:#888888;
+    letter-spacing: 0.5px;
+}
+.realfooter2-1 h2 a:hover{
+    color: black;
+}
+.realfooter2-1 img{
+    margin: 5px;
+    height: 40px;
+}
+/* ....................................... */
+.realfooter2-2{
+    float: left;
+    font-family: 'Montserrat-Light' !important;
+    margin-top: 35px;
+}
+.realfooter2-2 h1{
+    color: black;
+    font: 14px "Roboto",Arial,Helvetica,sans-serif;
+   line-height: 0px;
+   text-transform: uppercase;
+   font-weight: lighter;
+   margin-bottom: 30px;
+}
+.realfooter2-2 h2 a{
+    /* font: 15px  'Montserrat-Light' sans-serif !important; */
+    font: 13px "Roboto",Arial,Helvetica,sans-serif;
+    white-space: nowrap;
+    font-style: normal;
+    line-height: 30px;
+    color:#888888;
+    letter-spacing: 0.5px;
+}
+.realfooter2-2 h2 a:hover{
+    text-decoration: underline;
+}
+/* End Footer 2 */
+/* Footer 3 */
+#footer3{
+    width: 100%;height:175px;
+    background-color: #ececec;
+}
+#realfooter3{
+    width: 1180px;
+    margin: 0 auto;
+}
+#realfooter3 img{
+    margin-top: 25px;
+    margin-right: 75px;
+    float: left;
+}
+#realfooter3 h1{
+    padding-top: 30px;
+    color: rgb(58, 56, 56);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+#realfooter3 h2{
+    color: rgb(58, 56, 56);
+    font-size: 12px;
+    margin: 0;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+#realfooter3 div{
+    float: left;
+}
+
+/* End Footer 3 */
+#left_ads_float
+{
+    overflow: scroll;
+    width: 400px;
+    height: 420px;
+    bottom:120px;
+    position:fixed; 
+    background-color: rgb(255, 255, 255);
+    border: 2px solid green;
+    box-shadow: 0 0 5px gray;
+    left: 80px;
+}
+#left_ads_float1{
+    bottom:465px;
+    position:fixed; 
+    background-color: rgb(255, 255, 255);
+    border: 2px solid green;
+    box-shadow: 0 0 5px gray;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+
+}
+#left_ads_float1:hover{
+    box-shadow: 0 0 5px rgb(219, 44, 44);
+    border: 3px dashed red;
+}
+#cart{
+    margin: 0;
+    padding: 0;
+}
+#cart1 .reallistbook1-1box{
+    margin-top: 0;
+    margin-bottom: 65px;
+}
+#giohangbt:hover{
+    border: 5px double deeppink;
+    box-shadow: 0 0 5px black;
+}
+#offbt{
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 300px;
+    background-image: linear-gradient(rgb(2, 255, 36), rgb(0, 110, 255));
+    border-radius:10px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px 10px 8px 0;
+}
+#thanhtoan1,#thanhtoan2{
+    width: 200px;
+    background-image: linear-gradient(rgb(2, 255, 36), rgb(0, 110, 255));
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-left: 15px;
+}
+#thanhtoan2{
+    width: 100px;
+    background-image: linear-gradient(rgb(255, 2, 2), rgb(0, 0, 0));
+    font-size: 20px;
+    color: blanchedalmond;
+    font-weight: lighter;
+    float: right;
+    margin-right: 15px;
+}
+
+.reallistbook1-1box img{
+        -webkit-transition-duration: 0.3s; 
+    -moz-transition-duration: 0.3s; 
+    -o-transition-duration: 0.3s; 
+    /* margin: 0 10px 5px 0;  */
+    }
+.reallistbook1-1box img:hover{
+        -webkit-transform:scale(0.8); 
+-moz-transform:scale(0.8); 
+-o-transform:scale(0.8); 
+}

@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        AntBook-Hiệu sách của T H O
+    </title>
+    <link rel="icon" href="/images/antlogo1.png">
+    <link rel="stylesheet" href="/CSS/index.css">
+</head>
+<body onload="showClock();tinhi(1); show();realchay() ">
+    <div id="dongho"  target="_blank" ></div>
+    <!-- Like and Share Javascript -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0"
+    nonce="lwkdHQ3J"></script>
+    <!--End Like and Share Javascript -->
+
+    <!-- Header1....................... -->
+    
+    <div id="header1">
+        <div id="realheader1">
+            <!--Truck  -->
+            <div id="realheader1-submenu" style="float: left;">
+                <img src="/images/truck_16px.png" alt=""><a href="">Miễn phí giao hàng</a>
+                <div ><b>Miễn phí giao hàng toàn quốc</b> cho đơn hàng từ 250.000đ</div>
+                &nbsp;&nbsp;&nbsp; |
+            </div>      
+            <!--End Truck  -->
+
+            <!-- Bookshelf -->
+            <div id="realheader1-submenu" style="float: left;z-index: 21;">
+                <img src="/images/book_shelf_16px.png" alt=""><a href="">80.000 tựa sách</a> 
+                &nbsp;&nbsp;&nbsp;|
+                <div >Với hơn 80,000 đầu sách trong mọi lĩnh vực
+                    (và tiếp tục tăng mỗi ngày), Vinabook.com tự
+                    hào là nhà sách trên mạng có số lượng đầu
+                    sách lớn nhất Việt Nam, bạn có thể tìm được
+                    bất kỳ quyển sách nào cho mọi nhu cầu đọc sách của bạn.</div>
+            </div>
+            <!-- End Bookshelf -->
+
+            <!-- Phone header  -->
+            <div id="realheader1-submenu" style="float: left;">
+                <img src="/images/phonelink_ring_16px.png" alt=""><a href="">Antbook Reader </a>
+                <div >
+                    Hơn 10,000 tựa sách và
+                    tạp chí trong thư viện 
+                    sách khổng lồ của Antbook 
+                    Reader mọi lúc mọi nơi chỉ 
+                    từ 825đ/ngày</div>
+            </div> 
+            <!-- End Phone header  -->
+
+            <!-- Like -button-->
+            <div style="float: right;margin-top: 10px;"  class="fb-like" 
+                data-href="http://127.0.0.1:5501/home.html" 
+                data-width="" 
+                data-layout="button_count" 
+                data-action="like"
+                data-size="small"
+                data-share="true">
+            </div>
+            <!--End Like - button  -->
+        </div>
+    </div>
+    <!-- Hết Header 1 .................... -->
+    <!-- Header2....................... -->
+    <div id="header2">
+        <div id="realheader2" style="position: relative;">
+            <!-- Logo -->
+            <a href="/html/index.html"><img src="/images/newlogo.png" alt="" width="140px" style="padding-top: 10px;"></a>
+            <!-- End Logo -->
+            <div style="position: absolute;width: 675px;margin: 0 auto;top: 2px;left: 230px;">
+            <marquee behavior="" direction="" style="position: absolute;top:0px ;font-size: 15px;">Truy cập trang web tại địa chỉ: http://thopro.lovestoblog.com 
+                <span style="color: red;">♥♥♥♥♥♥</span></marquee>
+            </div>
+            <!-- Search bar-->
+            <button style="position: absolute;top:0;left: 240px;">
+                <label for=""><img src="/images/search_20px.png" alt=""></label>
+                <label for="">
+                    <input type="text" 
+                        placeholder="Tìm kiếm tựa sách, tác giả"
+                        style="font-size: 18px;
+                        font-family: 'Montserrat-Light' !important;
+                        width: 420px;
+                        margin-top: 0px;">
+                </label>
+                <label for="" style="float: right;
+                     margin-right: 0px; margin-top: 1px;
+                     width: 90px;height:28px ;
+                     border-radius: 15px;
+                     background-color: rgb(8, 123, 57);">
+                     <input type="submit" name="" id="searchbook" value="Tìm sách">
+                </label>
+            </button>
+            <!--End Search bar-->
+
+            <!-- Cart -->
+            <div id="cart" >
+                <a href=""><img src="/images/shopping_cart_40px.png" alt="" style="border:1.5px solid green;border-radius: 50%;padding: 5px;"></a>
+                <div><a href="login.html">Đăng nhập</a> &nbsp;|&nbsp; <a href="/html/registration.html">Đăng kí</a></div>
+            </div>
+            <!-- End Cart -->
+        </div>
+    </div>
+    <!-- Hết Header 2 .................... -->
+    <!-- Header3....................... -->
+    <div id="header3">
+        <div id="realheader3">
+            <img src="/images/menu_40px.png" alt="" >
+            <div style="font-size: large;">Danh mục sách</div>
+            <img src="/images/expand_arrow_30px.png" alt="" style="margin-left: 35px;">
+            <div style="float: right; "  > 
+                <img src="/images/phone_20px.png" alt="" style="margin-top: 10px;margin-right: 5px;">
+                <div >Hotline:1900 6401 |&nbsp;</div>
+                <img src="/images/chat_20px.png" alt="" style="margin-top: 10px;margin-right: 5px;">
+                <div >Hỗ trợ trực tuyến</div>
+            </div>
+        </div>
+    </div>
+    <!-- Hết Header 3 .................... -->
+
+    <!-- Body -->
+    <article>
+        <!-- left1 -->
+        <div style="width: 100%;height: 500px; position: relative;">
+        <div id="left1" >
+            <ul style="list-style-type: none;">
+                <li>Sách Bán Chạy <img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Mới Phát Hành<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Sắp Phát Hành<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li><a href="list.html">Sách Ngoại Văn</a><img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Blockchain<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Kinh Tế<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Văn Học Trong Nước<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Văn Học Nước Ngoài<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Thường Thức-Đời Sống<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Thiếu Nhi<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Phát Triển Bản Thân<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+                <li>Sách Tin Học - Ngoại Ngữ<img src="/images/more_than_15px.png" alt="" align="right" ></li>
+            </ul>
+        </div>
+        <!-- End left1 -->
+
+        <!-- right1 -->
+        <div id="right1" style="position: absolute;top: 0px;right:0px">
+            
+            <div id="hinh" style="float: left; " >
+                <img src="/images/banner1test3.png" alt="" width="610px" height="350px">
+            </div>
+            <div id="abc" style="position: absolute;top:330px;left: 280px;z-index: 10;">
+                <button onclick="tinhi(1);show() ;" id="n1" class="bb" ></button>
+                <button onclick="tinhi(2);show();" id="n2" class="bb"></button>
+                <button onclick="tinhi(3);show();" id="n3" class="bb"></button>
+                <button onclick="tinhi(4);show();" id="n4" class="bb"></button>
+                
+            </div>
+            <button onclick="lui('l')" class="right_left" style="left: 525px;width: 40px;"><img src="/images/forward_50px.png" alt="" width="30px" ></button>
+            <button onclick="tien('t')"  class="right_left" style="right: 870px;width: 40px;"><img src="/images/back_50px.png" alt="" width="30px"></button>
+            <script>
+                setInterval("lui('l')",4000);
+            </script>
+            <!-- <img src="/images/banner1test3.png" alt="" style="width : 598px;float: left;"> -->
+            <a href="detail.html"><img src="/images/363104_06.jpg" alt="" style="margin-left: 1px;float: right;" width="299px" ></a>
+            <img src="/images/banner3.png" alt="" style="width : 299px;margin-left: 1px;float: right;">
+
+            
+            <!-- <img src="/images/1.jpg" alt="" style="width: 224px;margin-top: -0px;margin-right: -2px;float: right;"> 
+            <img src="/images/2.jpg" alt="" style="width: 224px;margin-top: -3px;margin-right: -2px;"> 
+            <img src="/images/3.jpg" alt="" style="width: 224px;margin-top: -3px;margin-right: -2px;"> 
+            <img src="/images/361437_image20200910t030157126z.jpg" alt="" style="width: 220px;margin-top: -3px;margin-right: -2px;">  -->
+                <!-- <marquee behavior="scroll" direction="down" scrollamount=5; hspace="100" style="background-image: linear-gradient(to right, purple, pink);"><img src="/images/banner4.png" alt=""></marquee> -->
+                <div id="chaymarquee">   </div>
+                <div id="chaymarquee1">   </div>
+            
+        </div>
+    </div>
+        <!--End right1 -->
+
+        <!-- Left2 -->
+        <div id="left2" style="position: relative;">            
+            <div style="color: #333333;font-size: 20px;margin-bottom: 35px;margin-top: 15px;">Sách Mới Của Tác Giả Nguyễn Nhật Ánh</div>
+            <div id="boxleft2">
+                <div id="boxleft2img">
+                    <img src="/images/362916_con-chim-xanh-biec-bay-ve-bia-cung.jpg" alt=""
+                     style="margin-top: 37px; margin-left: 37px;">
+                </div>
+                <div id="boxleft2word">
+                    <div style="font-size: 20px;color: white;margin-bottom: 5px;">Con Chim Xanh Biếc Bay Về (Bìa Cứng)</div>
+                    <div style="border-bottom: 1px rgb(255,255,255) solid;width: 138px;font-size: 15px;color: white;letter-spacing: 1px;">Nguyễn Nhật Ánh</div>
+                    <div style="color: white;font-size: 15px;line-height: 22px;margin-top: 15px;border-bottom: white 1px dashed;padding-bottom: 15px;">Không giống như những tác phẩm trước đây lấy bối cảnh vùng quê miền Trung
+                        <br> đầy ắp những hoài niệm tuổi thơ dung dị, trong trẻo với các nhân vật ở độ tuổi
+                        <br> dậy thì, trong quyển sách mới lần này nhà văn Nguyễn Nhật Ánh lấy bối cảnh 
+                        <br> chính là Sài Gòn – Thành phố Hồ Chí Minh nơi tác giả sinh sống (như là một
+                        <br> sự đền đáp ân tình với mảnh đất miền Nam). Các nhân vật chính trong truyện
+                        <br> cũng “lớn” hơn, với những câu chuyện mưu sinh lập nghiệp lắm gian nan thử
+                        <br> thách của các sinh viên trẻ đầy hoài bão. Tất nhiên không thể thiếu những câu
+                        <br> chuyện tình cảm...
+                    </div>
+                    <div id="boxleft2worddiscount">
+                        -25%
+                    </div>
+                    <del style="float: left;font-size: 15px;color: white;margin-left: 20px;margin-top: 23px;">270.000 đ</del>
+                    <div style="font-size:22px ; float: left;color: white;margin-left: 20px;margin-top: 18px;">202.000 đ</div>
+                    <div id="muangay">Mua ngay</div>
+                </div>
+            </div>
+            <Div style="color: #333333;font-size: 20px;margin-bottom: 35px;margin-top: 15px;">Sách Bán Chạy </Div>
+            
+            <div id="boxend">
+                <div id="boxendtop">
+                    <img src="/images/364408_dong-luc-cua-nha-lanh-dao-the-motive.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                    <div id="boxendtopright">
+                        <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                            <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Động Lực Của Nhà...</div>
+                            <div>Patrick Lencioni</div>
+                        </div>
+                        <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                            <br> nhất, chỉ có hai động
+                            <br> cơ thúc đẩy mọi người
+                            <br> vươn tới vị trí...</div>
+                    </div>
+                </div>
+                <div id="boxendbot">
+                    <div style="float: left;" id="boxenddiscount">-20%</div>
+                    <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                    <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                </div>
+            </div>
+
+            <div id="boxend">
+                <div id="boxendtop">
+                    <img src="/images/364342_song-toi-gian.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                    <div id="boxendtopright">
+                        <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                            <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Sống tối giản</div>
+                            <div>Patrick Lencioni</div>
+                        </div>
+                        <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                            <br> nhất, chỉ có hai động
+                            <br> cơ thúc đẩy mọi người
+                            <br> vươn tới vị trí...</div>
+                    </div>
+                </div>
+                <div id="boxendbot">
+                    <div style="float: left;" id="boxenddiscount">-20%</div>
+                    <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                    <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                </div>
+            </div>
+            <div id="boxend" style="margin-right: 0;position: absolute;top:540px;right: 0px;" >
+                <div id="boxendtop">
+                    <img src="/images//364152_paris-14.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                    <div id="boxendtopright">
+                        <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                            <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Paris +14</div>
+                            <div>Patrick Lencioni</div>
+                        </div>
+                        <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                            <br> nhất, chỉ có hai động
+                            <br> cơ thúc đẩy mọi người
+                            <br> vươn tới vị trí...</div>
+                    </div>
+                </div>
+                <div id="boxendbot">
+                    <div style="float: left;" id="boxenddiscount">-20%</div>
+                    <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                    <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                </div>
+            </div>
+            <div id="boxend">
+                <div id="boxendtop">
+                    <img src="/images/364077_999-la-thu-gui-cho-chinh-minh-mong-ban-tro-thanh-phien-ban-hoan-hao-nhat-tap-1.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                    <div id="boxendtopright">
+                        <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                            <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">999 Lá Thư Gửi Cho...</div>
+                            <div>Patrick Lencioni</div>
+                        </div>
+                        <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                            <br> nhất, chỉ có hai động
+                            <br> cơ thúc đẩy mọi người
+                            <br> vươn tới vị trí...</div>
+                    </div>
+                </div>
+                <div id="boxendbot">
+                    <div style="float: left;" id="boxenddiscount">-20%</div>
+                    <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                    <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                </div>
+            </div>
+            <div id="boxend">
+                <div id="boxendtop">
+                    <img src="/images/364079_999-la-thu-gui-cho-chinh-minh-mong-ban-tro-thanh-phien-ban-hanh-phuc-nhat-tap-2.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                    <div id="boxendtopright">
+                        <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                            <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">999 Lá Thư Gửi Cho...</div>
+                            <div>Patrick Lencioni</div>
+                        </div>
+                        <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                            <br> nhất, chỉ có hai động
+                            <br> cơ thúc đẩy mọi người
+                            <br> vươn tới vị trí...</div>
+                    </div>
+                </div>
+                <div id="boxendbot">
+                    <div style="float: left;" id="boxenddiscount">-20%</div>
+                    <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                    <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                </div>
+            </div>
+            <div id="boxend" style="margin-right:0px ;position: absolute;top:782px;right: 0px;">
+                <div id="boxendtop">
+                    <img src="/images/364021_lanh-dao-va-van-hoa-doanh-nghiep.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                    <div id="boxendtopright">
+                        <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                            <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Động Lực Của Nhà...</div>
+                            <div>Patrick Lencioni</div>
+                        </div>
+                        <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                            <br> nhất, chỉ có hai động
+                            <br> cơ thúc đẩy mọi người
+                            <br> vươn tới vị trí...</div>
+                    </div>
+                </div>
+                <div id="boxendbot" >
+                    <div style="float: left;" id="boxenddiscount">-20%</div>
+                    <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                    <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                </div>
+            </div>
+        </div>
+        <!-- End Left2 -->
+        <!-- Right2 -->
+        <div id="right2">
+            <Div style="color: #333333;font-size: 20px;margin-bottom: 35px;margin-top: 15px;">Sách Bán Chạy Trong Tuần </Div>
+            <div id="boxright2">
+                <img src="/images/355127_phuong-phap-dieu-tri-tram-cam.jpg" alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Phương Pháp Điều Trị 
+                        <br> Trầm Cảm</div>
+                    <div style="margin-bottom: 5px;">Stephen S. Ilardi</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">98.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                </div>
+            </div>
+            <div id="boxright2" >
+                <img src="/images/332975_chua-lanh-dua-tre-ben-trong-ban.jpg"alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Chữa Lành Đứa Trẻ Bên 
+                        <br> Trong Bạn </div>
+                    <div style="margin-bottom: 5px;">Stephen S. Ilardi</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">75.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">62.000đ</div>
+                </div>
+            </div>
+            <div id="boxright2" >
+                <img src="/images/362905_thay-doi-cuoc-song-voi-nhan-so-hoc.jpg "alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Thay Đổi Cuộc Sống Với 
+                        <br> Nhân Số Học</div>
+                    <div style="margin-bottom: 5px;">Lê Đỗ Quỳnh Hương</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">198.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                </div>
+            </div>
+            <div id="boxright2" >
+                <img src="/images/281094_cay-chuoi-non-di-giay-xanh-bia-mem-qua-tang-postcard-lich-2018-de-ban-1-to-so.jpg" alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Cây Chuối Non Đi Giày 
+                        <br>Xanh</div>
+                    <div style="margin-bottom: 5px;">Nguyễn Nhật Ánh</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">98.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                </div>
+            </div>
+            <div id="boxright2" >
+                <img src="/images/361480_cau-chuyen-nghe-thuat-bia-cung.jpg" alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Con Chim Xanh Biếc Bay  
+                        <br> Về</div>
+                    <div style="margin-bottom: 5px;">Nguyễn Nhật Ánh</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">120.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                </div>
+            </div>
+
+            <div id="boxright2" >
+                <img src="/images/361013_ghi-chep-ve-mot-hanh-tinh-au-lo.jpg" alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Ghi Chép Về Một Hành  
+                        <br> Âu Lo</div>
+                    <div style="margin-bottom: 5px;">Matt Haig</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">98.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">25.000đ</div>
+                </div>
+            </div><div id="boxright2" >
+                <img src="/images/329222_dung-de-tram-cam-tan-cong-ban-tai-ban-2018.jpg" alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Đừng Để Trầm Cảm Tấn
+                        <br> Công Bạn</div>
+                    <div style="margin-bottom: 5px;">David D. Burnsi</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">958.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">864.000đ</div>
+                </div>
+            </div><div id="boxright2" >
+                <img src="/images/357877_tro-ve-tu-coi-sang-tai-ban-2020.jpg" alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Trở Về Từ Cõi Sáng 
+                        <br> Tái Bản</div>
+                    <div style="margin-bottom: 5px;">Nguyên Phong</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">98.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                </div>
+            </div><div id="boxright2" >
+                <img src="/images/203534_con-cho-nho-mang-gio-hoa-hong-bia-mem.jpg" alt="" style="float: left;padding-left: 10px;">
+                <div id="boxright2word" style="float: right;">
+                    <div style="font-size: 16px;margin-bottom: 5px;" >Con Chó Nhỏ Mang Giỏ
+                        <br> Hoa Hồng</div>
+                    <div style="margin-bottom: 5px;">Lê Đỗ Quỳnh Hương</div>
+                    <del style="float: left; color: rgb(119, 118, 118);">77.000đ</del>
+                    <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">82.000đ</div>
+                </div>
+            </div>
+
+        </div>
+
+<!-- ----------------------------------------------------------------------------------------------------- -->
+                <!-- Left2 -->
+                <div id="left2" style="position: relative;">            
+                    <div style="color: #333333;font-size: 20px;margin-bottom: 35px;margin-top: 15px;">Sách Hay</div>
+                    <div id="boxleft2" style="background-color: #4d939c;">
+                        <div id="boxleft2img">
+                            <img src="/images//364516_kiem-loi-tu-mot-trat-tu-the-gioi-moi.jpg" alt=""
+                             style="margin-top: 37px; margin-left: 37px;">
+                        </div>
+                        <div id="boxleft2word" >
+                            <div style="font-size: 20px;color: white;margin-bottom: 5px;">Kiếm Lời Từ Một Trật Tự Thế Giới Mới</div>
+                            <div style="border-bottom: 2px rgb(255,255,255) solid;width: 98px;font-size: 15px;color: white;letter-spacing: 1px;">Shaun Rein</div>
+                            <div style="color: white;font-size: 15px;line-height: 22px;margin-top: 15px;border-bottom: white 1px dashed;padding-bottom: 15px;">Không giống như những tác phẩm trước đây lấy bối cảnh vùng quê miền Trung
+                                <br> “Được đúc rút từ hơn 15 năm kinh nghiệm kinh doanh thành công tại Thượng
+                                <br> Hải, cuốn sách mới này của Shaun Rein cung cấp một góc nhìn của người 
+                                <br> trong cuộc về cách sử dụng cây gậy và củ cà rốt hết sức tinh vi của Trung Quốc
+                                <br> để đạt các mục tiêu chính trị. Cuộc chiến giành chiếc ví Trung Quốc cho biết
+                                <br> nhiều điều về chiến lược tổng thể của Trung Quốc cũng như các tác động của
+                                <br> nó với đời sống người dân. Đây là một cuốn sách giàu thông tin sâu sắc, thú vị
+                                <br> và đáng đọc đối với cả các chuyên gia về Trung Quốc cũng như công chúng nói chung
+                            </div>
+                            <div id="boxleft2worddiscount">
+                                -25%
+                            </div>
+                            <del style="float: left;font-size: 15px;color: white;margin-left: 20px;margin-top: 23px;">270.000 đ</del>
+                            <div style="font-size:22px ; float: left;color: white;margin-left: 20px;margin-top: 18px;">202.000 đ</div>
+                            <div id="muangay">Mua ngay</div>
+                        </div>
+                    </div>
+                    <Div style="color: #333333;font-size: 20px;margin-bottom: 35px;margin-top: 15px;">Sách Bán Chạy </Div>
+                    <div id="boxend">
+                        <div id="boxendtop">
+                            <img src="/images/364349_dich-hach.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                            <div id="boxendtopright">
+                                <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                                    <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Dịch Hạch</div>
+                                    <div>Patrick Lencioni</div>
+                                </div>
+                                <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                                    <br> nhất, chỉ có hai động
+                                    <br> cơ thúc đẩy mọi người
+                                    <br> vươn tới vị trí...</div>
+                            </div>
+                        </div>
+                        <div id="boxendbot">
+                            <div style="float: left;" id="boxenddiscount">-20%</div>
+                            <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                            <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                        </div>
+                    </div>
+        
+                    <div id="boxend">
+                        <div id="boxendtop">
+                            <img src="/images/364099_trong-khi-cho-doi-godot.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                            <div id="boxendtopright">
+                                <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                                    <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Trong Khi Chờ Đợi...</div>
+                                    <div>Patrick Lencioni</div>
+                                </div>
+                                <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                                    <br> nhất, chỉ có hai động
+                                    <br> cơ thúc đẩy mọi người
+                                    <br> vươn tới vị trí...</div>
+                            </div>
+                        </div>
+                        <div id="boxendbot">
+                            <div style="float: left;" id="boxenddiscount">-20%</div>
+                            <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                            <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                        </div>
+                    </div>
+                    <div id="boxend" style="margin-right: 0;position: absolute;top:540px;right: 0px;">
+                        <div id="boxendtop">
+                            <img src="/images/361592_toa-sang-jessica-jung.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                            <div id="boxendtopright">
+                                <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                                    <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Tỏa Sáng</div>
+                                    <div>Patrick Lencioni</div>
+                                </div>
+                                <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                                    <br> nhất, chỉ có hai động
+                                    <br> cơ thúc đẩy mọi người
+                                    <br> vươn tới vị trí...</div>
+                            </div>
+                        </div>
+                        <div id="boxendbot">
+                            <div style="float: left;" id="boxenddiscount">-20%</div>
+                            <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                            <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                        </div>
+                    </div>
+                    <div id="boxend">
+                        <div id="boxendtop">
+                            <img src="/images/362443_ke-trung-phat-series-bac-si-phap-y-tan-minh-tai-ban-2020.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                            <div id="boxendtopright">
+                                <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                                    <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Kẻ Trừng Phạt</div>
+                                    <div>Patrick Lencioni</div>
+                                </div>
+                                <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                                    <br> nhất, chỉ có hai động
+                                    <br> cơ thúc đẩy mọi người
+                                    <br> vươn tới vị trí...</div>
+                            </div>
+                        </div>
+                        <div id="boxendbot">
+                            <div style="float: left;" id="boxenddiscount">-20%</div>
+                            <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                            <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                        </div>
+                    </div>
+                    <div id="boxend">
+                        <div id="boxendtop">
+                            <img src="/images/362435_ke-don-rac-series-bac-si-phap-y-tan-minh-tai-ban-2020.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                            <div id="boxendtopright">
+                                <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                                    <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;"> Kẻ Dọn Rác</div>
+                                    <div>Patrick Lencioni</div>
+                                </div>
+                                <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                                    <br> nhất, chỉ có hai động
+                                    <br> cơ thúc đẩy mọi người
+                                    <br> vươn tới vị trí...</div>
+                            </div>
+                        </div>
+                        <div id="boxendbot">
+                            <div style="float: left;" id="boxenddiscount">-20%</div>
+                            <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                            <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                        </div>
+                    </div>
+                    <div id="boxend" style="margin-right:0px ;position: absolute;top:783px;right: 0px;">
+                        <div id="boxendtop">
+                            <img src="/images/358007_chuyen-ve-ellie.jpg" alt="" style="height: 155px;width: 90px;border: 1px solid silver;margin-left: 10px;float: left;">
+                            <div id="boxendtopright">
+                                <div style="border-bottom: 1px solid silver;padding-bottom: 10px;">
+                                    <div style="font-weight: 600;font-size: 15px;margin-bottom: 5px;">Chuyện về Ellie</div>
+                                    <div>Patrick Lencioni</div>
+                                </div>
+                                <div style="margin-top: 15px;font-size: 13.5px;line-height: 17px;">Ở mức độ căn bản 
+                                    <br> nhất, chỉ có hai động
+                                    <br> cơ thúc đẩy mọi người
+                                    <br> vươn tới vị trí...</div>
+                            </div>
+                        </div>
+                        <div id="boxendbot" >
+                            <div style="float: left;" id="boxenddiscount">-20%</div>
+                            <del style="float: left;margin-top: 10px;margin-left: 70px;font-size: 14px;">109.000 đ</del>
+                            <div style="float: left;font-size: 15px;margin-top: 10px;margin-left: 15px;color: rgb(182, 94, 122);font-weight: 600;">87.000 đ</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Left2 -->
+                <!-- Right2 -->
+                <div id="right2">
+                    <Div style="color: #333333;font-size: 20px;margin-bottom: 35px;margin-top: 15px;">Báo Chí Giới Thiệu</Div>
+                    <div id="boxright2">
+                        <img src="/images/355127_phuong-phap-dieu-tri-tram-cam.jpg" alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Phương Pháp Điều Trị 
+                                <br> Trầm Cảm</div>
+                            <div style="margin-bottom: 5px;">Stephen S. Ilardi</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">98.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                        </div>
+                    </div>
+                    <div id="boxright2" >
+                        <img src="/images/332975_chua-lanh-dua-tre-ben-trong-ban.jpg"alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Chữa Lành Đứa Trẻ Bên 
+                                <br> Trong Bạn </div>
+                            <div style="margin-bottom: 5px;">Stephen S. Ilardi</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">75.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">62.000đ</div>
+                        </div>
+                    </div> 
+                    <div id="boxright2" >
+                        <img src="/images/362905_thay-doi-cuoc-song-voi-nhan-so-hoc.jpg "alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Thay Đổi Cuộc Sống Với 
+                                <br> Nhân Số Học</div>
+                            <div style="margin-bottom: 5px;">Lê Đỗ Quỳnh Hương</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">198.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                        </div>
+                    </div>
+                    <div id="boxright2" >
+                        <img src="/images/281094_cay-chuoi-non-di-giay-xanh-bia-mem-qua-tang-postcard-lich-2018-de-ban-1-to-so.jpg" alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Cây Chuối Non Đi Giày 
+                                <br>Xanh</div>
+                            <div style="margin-bottom: 5px;">Nguyễn Nhật Ánh</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">98.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                        </div>
+                    </div>
+                    <div id="boxright2" >
+                        <img src="/images/361480_cau-chuyen-nghe-thuat-bia-cung.jpg" alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Con Chim Xanh Biếc Bay  
+                                <br> Về</div>
+                            <div style="margin-bottom: 5px;">Nguyễn Nhật Ánh</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">120.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                        </div>
+                    </div>
+        
+                    <div id="boxright2" >
+                        <img src="/images/361013_ghi-chep-ve-mot-hanh-tinh-au-lo.jpg" alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Ghi Chép Về Một Hành  
+                                <br> Âu Lo</div>
+                            <div style="margin-bottom: 5px;">Matt Haig</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">98.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">25.000đ</div>
+                        </div>
+                    </div><div id="boxright2" >
+                        <img src="/images/329222_dung-de-tram-cam-tan-cong-ban-tai-ban-2018.jpg" alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Đừng Để Trầm Cảm Tấn
+                                <br> Công Bạn</div>
+                            <div style="margin-bottom: 5px;">David D. Burnsi</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">958.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">864.000đ</div>
+                        </div>
+                    </div><div id="boxright2" >
+                        <img src="/images/357877_tro-ve-tu-coi-sang-tai-ban-2020.jpg" alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Trở Về Từ Cõi Sáng 
+                                <br> Tái Bản</div>
+                            <div style="margin-bottom: 5px;">Nguyên Phong</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">98.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">84.000đ</div>
+                        </div>
+                    </div><div id="boxright2" >
+                        <img src="/images/203534_con-cho-nho-mang-gio-hoa-hong-bia-mem.jpg" alt="" style="float: left;padding-left: 10px;">
+                        <div id="boxright2word" style="float: right;">
+                            <div style="font-size: 16px;margin-bottom: 5px;" >Con Chó Nhỏ Mang Giỏ
+                                <br> Hoa Hồng</div>
+                            <div style="margin-bottom: 5px;">Lê Đỗ Quỳnh Hương</div>
+                            <del style="float: left; color: rgb(119, 118, 118);">77.000đ</del>
+                            <div style="float: left;margin-left: 10px;color: rgb(240, 55, 55);font-size: 15px;">82.000đ</div>
+                        </div>
+                    </div>
+        
+                </div>
+        <!-- End Right2 -->
+
+
+
+
+        <script src="https://uhchat.net/code.php?f=8d0b7d"></script>
+
+    </article>
+    <div id="left_ads_float">
+        <a href="#1" target="_blank"><img style="border: none;width: 130px;" src="/images/left.png"  /></a>
+    </div>
+    <div id="right_ads_float">
+       <a href="#2" target="_blank"><img style="border: 0;" src="/images/right.png" width="130px"  /></a>
+    </div>
+
+    <!-- Footer 1 -->
+    <div id="footer1">
+        <div id="realfooter1">
+
+            <div id="realfooter1-1">
+                <h1>
+                    ĐĂNG KÝ NHẬN EMAIL
+                </h1>
+                <h2>
+                    Đăng ký nhận thông tin sách mới, sách bán
+                </h2>
+            </div>
+
+            <label  id="realfooter1-2" for="">
+                <input type="text" placeholder="Tên của bạn">
+            </label>
+
+            <label id="realfooter1-3" for="">
+                <input  type="email" placeholder="Nhập email của bạn">
+            </label>
+
+            <select  id="realfooter1-4" aria-placeholder="Thể loại yêu thích" style="width:200px">
+                <option value="">Thể loại yêu thích</option>
+                <option value="">Sách ngoại văn</option>
+                <option value="">Sách kinh tế</option>
+                <option value="">Sách văn học trong nước</option>
+                <option value="">Sách thường thức - đời sống</option>
+                <option value="">Sách thiếu nhi</option>
+                <option value="">Sách giáo khoa - giáo trình</option>
+                <option value="">Sách văn học chuyên ngành</option>
+                <option value="">Sách văn học nước ngoài</option>
+                <option value="">Sách tin học - ngoại ngữc</option>
+                <option value="">Sách phát triển bản thân</option>
+            </select>
+
+            <button id="realfooter1-5" type="submit" style="font-size: 18px;"> ĐĂNG KÝ NGAY</button>
+        </div>
+    </div>
+    <!-- End Footer 1 -->
+    <!-- Footer 2 -->
+    <div id="footer2">
+        <div id="realfooter2">
+            <div class="realfooter2-1">
+                <h1>VỀ CÔNG TY</h1>
+                <h2 style="margin-top: 0px;">
+                    <a href="intro.html">Giới thiệu công ty</a> 
+                    <br>
+                    <a href="">Tuyển dụng</a>
+                    <br>
+                    <a href="">Góc báo chí</a>
+                    <br>
+                    <a href="">Chương trình đại lý</a>
+                    <br>
+                    <a href="">Chính sách bảo mật</a>
+                    <br>
+                    <a href="">Ứng dụng đọc ebook</a>
+                    <br>
+                </h2>
+            </div>  
+            <div class="realfooter2-1">
+                <h1>TRỢ GIÚP</h1>
+                <h2  style="margin-top: 0px;">
+                    <a href="">Quy định sử dụng</a>
+                    <br>
+                    <a href="">Hướng dẫn mua hàng </a>
+                    <br>
+                    <a href="">Phương thức thanh toán</a>
+                    <br>
+                    <a href="">Phương thức vận chuyển</a>
+                    <br>
+                    <a href="">Các câu hỏi thường gặp</a>
+                    <br>
+                    <a href="">Bọc sách bằng bìa Plastic</a>
+                </h2>
+            </div>  
+            <div class="realfooter2-1">
+                <h1 >TIN TỨC SÁCH</h1>
+                <h2 style="margin-top: 0px;">
+                    <a href="">Tin tức</a>
+                    <br>
+                    <a href="">Chân dung</a> 
+                    <br>
+                    <a href="">Điểm sách </a>
+                    <br>
+                    <a href="">Phê bình</a>
+                </h2>
+            </div> 
+
+            <div class="realfooter2-1"  style="margin-left: 80px;margin-right: 20px;"  >
+                <h1 >Chấp nhận thanh toán</h1>
+                <img src="/images/visa.jpg" alt="">
+                <img src="/images/master_card.jpg" alt="">
+                <img src="/images/jcb.jpg" alt="">
+                <br>
+                <img src="/images/atm.jpg" alt="">
+                <img src="/images/cod.jpg" alt="">
+                <img src="/images/payoo.jpg" alt="">
+                <br><br>
+                <h1>Thanh toán an toàn</h1>
+                <img src="/images/verify_visa.jpg" alt="">
+                <img src="/images/master_card.jpg" alt="">
+                <img src="/images/onepay.jpg" alt="">
+            </div> 
+
+            <div class="realfooter2-1"  style="margin-right: 20px;">
+                <h1 >Đối tác vận chuyển</h1>
+                <img src="/images/logoreal.png" alt=""style="width:220px;margin-bottom:10px" >
+                <br>
+                <img src="/images/vn-post.jpg" alt="" style="width:200px;margin-bottom:10px">
+                <br>
+                <img src="/images/dhl.jpg" alt="" style="width:180px;margin-bottom:10px">
+            </div> 
+
+            <div class="realfooter2-1" >
+                <h1>Đối tác bán hàng</h1>
+                <img src="/images/lazada.jpg" alt="" style="margin-bottom:10px">
+                <br>
+                <img src="/images/shopee.jpg" alt="" style="margin-bottom:10px">
+                <br>
+                <img src="/images/amazon.jpg" alt="" style="margin-bottom:10px">
+            </div> 
+            <div class="realfooter2-1" style="clear: both;margin-top: 0px;">
+                <h1 style="margin-bottom: 15px;">Tải ứng dụng trên điện thoại</h1>
+                <img src="/images/icon-appstore.png" alt="">
+                <img src="/images/icon-googleplay.png" alt="">
+            </div>
+
+            <div class="realfooter2-2" style="clear: both;margin-top: 15px;" >
+                <h1 style="margin-bottom: 25px;">Thường được tìm kiếm</h1>
+                <h2 style="margin-top: 0px ;" >
+                    <a href="">truyện dan brown <br></a>
+                    <a href="">sách warren buffett <br></a>
+                    <a href="">sách digital marketing<br></a>
+                    <a href=""> truyện mới của nguyễn nhật ánh<br></a>
+                    <a href="">sách cho con<br></a>
+                    <a href="">sách hay về gia đình<br></a>
+                    
+                </h2>
+            </div>
+
+            <div class="realfooter2-2" style="margin-top: 35px;margin-left: 30px;">
+                <h2>
+                    <a href="">giáo trình tiếng anh trẻ em<br></a> 
+                    <a href="">sách hay về kinh tế<br></a> 
+                    <a href="">sách về đầu tư<br></a> 
+                    <a href="">sách doanh nhân<br></a>
+                    <a href="">sach hoc tieng trung<br></a>
+                    <a href="">tiểu thuyết tình yêu<br></a>  
+                </h2>
+            </div>
+
+            <div class="realfooter2-2" style="margin-top: 35px;;margin-left: 30px;">
+                <h2>
+                    <a href="">sách y học<br></a>
+                    <a href="">tủ sách gia đình<br></a> 
+                    <a href="">sách dạy kỹ năng giao tiếp<br></a> 
+                    <a href="">sách blockchain<br></a>  
+                    <a href="">sách du học<br></a> 
+                    <a href="">sách kỹ năng mềm<br></a> 
+                </h2>
+            </div>
+
+            <div class="realfooter2-2" style="margin-top: 35px;;margin-left: 30px;">
+                <h2>
+                    <a href="">sách phong thủy cổ<br></a>  
+                    <a href="">sách khởi nghiệp<br></a>  
+                    <a href="">sách bán hàng<br></a> 
+                    <a href="">sách về đầu tư chứng khoán<br></a>  
+                    <a href="">sách dạy nấu ăn<br></a>
+                    <a href="">sách tâm lý về tình yêu<br></a> 
+                </h2>
+            </div>
+
+            <div class="realfooter2-2" style="margin-top: 35px;;margin-left: 30px;">
+                <h2>
+                    <a href="">sách quản lý nhân sự <br></a>  
+                    <a href="">sách về quản trị kinh doanh<br></a>  
+                    <a href="">sách tài chính<br></a> 
+                    <a href="">sách hay cho thiếu nhi<br></a> 
+                    <a href="">sách tự học tiếng anh giao tiếp<br></a> 
+                    <a href="">sách tâm lý về tình yêu<br></a> 
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer 2 -->
+    <!-- Footer 3 -->
+    <div id="footer3">
+        <div id="realfooter3">
+            <img src="/images/logo_so_cong_thuong.png" alt="">
+            <div>
+                <h1>Công ty cổ phần thương mai dịch vụ mê kông com</h1>
+                <h2>Địa chỉ: 52/2 Thoại Ngọc Hầu, Phường Hòa Thạnh, Quận Tân Phú, Hồ Chí minh 
+                    <br>
+                    MST: 0303615027 do Sở Kế Hoạch và Đầu Tư Tp.HCM cấp ngày 10/03/2011
+                    <br>
+                    Tel: 02873008182-Fax: 02939733234 - Email:
+                    <span style="color:blue"> hotro@AntBook.com</span>
+                </h2>
+            </div>
+            <div style="margin-left: 35px;">
+                <h1>Webside cùng hệ thống</h1>
+                <img src="/images/logo_hotdeal_2x.png" alt="" style="margin-right: 0px;">
+                <img src="/images/logo_yesgo_2x.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End Footer 3 -->
+    <script src="index.js">
+        
+        
+    </script>
+</body>
+</html>

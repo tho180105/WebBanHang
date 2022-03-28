@@ -1,0 +1,645 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+body{ 
+    /* rgb(255,255,255) */
+    background-color:white  ;
+    width: 100%;height: 2000px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 0;
+    margin: 0 auto;
+}
+/* Header 1 */
+#header1{
+    background-color:rgb(243,243,243);
+    width: 100%;height: 40px;
+}
+#realheader1{
+    width: 1180px;
+    margin: 2px auto;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+#realheader1 img {
+    margin:5px 5px 0 10px;
+}
+#realheader1 >div>div{
+    display: none;
+    position: absolute;
+    border: 1px solid #565656;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 300px;height: auto;
+    padding:15px  ;
+    top:35px;
+    font-family: "Montserrat-Light",sans-serif !important;
+    font-size: 13px;
+    text-align: center;
+}
+#realheader1-submenu:hover>div{
+    display: block;
+}
+/*  End Header 1 ------------------*/
+/* Header 2 */
+#header2{
+    background-color: #ffffff;
+    width: 100%;height: 85px;
+}
+#realheader2{
+    width: 1180px;
+    margin: 0 auto;
+}
+button{
+    width: 580px;
+    height: 36px;
+    background-color:rgb(243,243,243);
+    border-radius: 18px;
+    outline: none;
+    border: 1px rgb(184, 180, 180) solid;
+    margin-left: 40px;
+    margin-top: 27px;
+}
+button label{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+button input{
+    outline: none;
+    border: none;
+    background-color:rgb(243,243,243);
+    margin-top: 3px;
+}
+button button{
+    width: 10px;
+    height: 10px;
+}
+button label #searchbook{
+    background-color:rgb(8, 123, 57);
+    color: white;
+    font-size: medium;
+    line-height: 22px;
+
+}
+#cart{
+    float: right;
+}
+#cart img{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+#cart div{
+    float: right;
+    line-height: 50px;
+    margin-top: 20px;
+}
+/* End Header 2 -----------------*/
+a{
+    color:  black;
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+/* Header 3 */
+#header3{
+    width: 100%;
+    height: 45px;
+    clear: both;
+    background-color: rgb(8, 123, 57) ;
+}
+#realheader3{
+    width: 1180px;
+    margin: 0 auto;
+}
+#realheader3 img{
+    margin-right: 35px;
+    float: left;
+    margin-top: 5px;
+}
+#realheader3 div{
+    line-height: 45px;
+    color: white;
+    float: left;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+/* End Header 3 */
+article{
+    height: 2150px;width: 1180px;
+    margin: 0 auto;
+}
+#link{
+    width: 100%;height: 30px;
+    font-size: medium;
+    margin: 40px 0 20px 0;
+    border-bottom: rgb(170, 162, 162) solid 1px;
+}
+/* Content */
+#content{
+    width: 100%;height: 45px;
+}
+/* End Content */
+/* Image */
+#content #image{
+    float: left;
+    position: relative;
+}
+#content #image>img{
+    margin: 30px 40px 0 0;
+}
+#image > div{
+    position: absolute;
+    top : 0px ;
+    right: 40px;
+}
+#image > div >img {
+    width: 90px;height: 30px;
+}
+/* End Img */
+/* Realcontent */
+#realcontent{
+    width: 500px;height: 300px;
+    float: left;
+    margin: 0px 40px 0 0;
+    font-weight: none;
+    font-size:25px ;
+    position: relative;
+}
+#realcontent1{
+    width: 500px;height: 270px;
+    border-bottom: 1px dashed gray;
+    line-height: 25px;
+}
+#realcontent1 h1{
+    font-size: 24px;
+    margin: 10px 0 15px 0;
+    color: #404040;
+    line-height: 1.2;
+    text-align: left;
+    white-space: normal;
+    font-weight: 500;
+}
+#realcontent1 h2{
+    display: inline-block;
+    white-space: nowrap;
+    color: #000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+    font-family: "Montserrat-Light",sans-serif !important;
+}
+#realcontent1 h3{
+    font-size: 17px;
+    
+}
+#realcontent2{
+    font-size: 15px;
+}
+div.bannerhot{
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(255, 0, 0);
+}
+div.bannerhot{
+    position: relative;
+    display: inline;
+}
+.timenguoc{
+    color: rgb(8, 180, 8);
+}
+#timenguoc1{
+    color: rgb(212, 57, 57);
+}
+#timenguoc2{
+    color: rgb(184, 164, 164);
+}
+#timenguoc3{
+    color: rgb(51, 82, 182);
+}
+.bannerhot > #dennguoctime {
+    position: absolute;
+top: 3%;
+left: 50%;
+transform: translateX(-50%);
+/* border-bottom: 2px solid; */
+font-size: 20px;
+padding: 10px;
+font-weight: bold;
+/* border-top: 2px solid; */
+}
+.demnguoctime {
+position: absolute;
+top: 19%;
+left: 50%;
+transform: translateX(-50%);
+color: #f59f00;
+font-size: 15px;
+}
+/* Price */
+#boxprice{
+    width: 280px;height: 400px;
+    border-radius: 10px;
+    border: 6px solid rgb(219, 217, 217);
+    float: right;margin-right: 20px;
+  }
+  #boxprice1{
+    border-bottom: 1px dashed silver;
+    line-height: 50px;
+    width: 86%;
+    margin-left: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 0.5px;
+  }
+  #boxprice2{
+    width: 86%;height: 250px;
+    border-bottom: 1px dashed silver;
+    margin-left: 15px;
+    padding-bottom: 5px;
+  
+  }
+  .boxprice2,#shipfee{
+  margin: 5px;
+  float: left;
+  color: #404040;
+  font-size: 17px;
+  }
+  #boxprice3{
+    width: 230px;height: 40px;
+    background-color:  #ffc705;
+    border :1px solid #e1af04;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  /* End price */
+/* End realcontent */
+/* Bonus */
+#bonus{
+    width: 100%;height: 180px;
+    clear: both;
+}
+#bonus1{
+    border-bottom: 1px dashed silver;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #008340;
+    padding-bottom: 10px;
+  }
+  .bonusdiscount{
+    color: white;
+    width: 35px;
+    height: 25px;
+    background-color: #ef3f42;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    right: -10px;top :40px
+  }
+  .bonus2{
+    position: relative;
+  }
+  .bonus2 img{
+    width: 50px;
+  }
+  #bonus3{
+    width: 400px;
+    height: 180px;
+  }
+  #bonusprice{
+    width: 500px;height: 100px;
+  }
+  #bounusprice1{
+    width: 135px;height: 35px;
+    margin: 40px 0 0 0px;
+    background-color: #ffc705;
+    border-radius: 5px;
+    border: 1px solid #e1af04;
+  }
+/* End Bonus */
+/* Intro Detail Comment */
+#introdetailcomment{
+    width: 100%;height: auto;
+    clear: both;
+}
+#realintrodetailcomment{
+    border-bottom: gray dashed 1px;
+    width: 100%;
+    padding: 5px 0 15px 0;
+    margin-bottom: 25px;
+    
+}
+/* Detail */
+#realintrodetailcomment a{  
+    text-decoration: none;
+    color: black  ;
+    width: 100px;
+    height: 40px;
+    padding: 5px 0 10px 0;
+    margin: 5px 15px 10px 0;
+    font-size: 25px;
+}
+#realintrodetailcomment a:hover{
+    text-decoration: none;
+    color: black  ;
+    width: 100px;
+    height: 40px;
+    border-bottom: 4px solid rgb(32, 150, 32);
+    padding: 5px 0 15px 0;
+    margin: 5px 15px 10px 0px;
+    
+}
+#detail p{
+    float: left;
+}
+#detail h4{
+    font-size: 20px;
+    font-weight: lighter;
+}
+/* Detailwriter */
+
+#boderdetailwriter{
+    padding: 0px 15px 0px 15px;
+}
+#boxwriter{
+  width: 300px;
+  height: 220px;
+  box-shadow: 0 10px 5px silver;
+  background-color: white;
+  border: 1px silver solid;
+  float: right;
+  margin: 15px 0 25px 25px;
+}
+#introwriter{
+    float: left;
+    width: 90%;
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    color: #087b39;
+    line-height: 1.2;
+    text-align: left;
+    font-family: "Montserrat-Light",sans-serif !important;
+    font-weight: normal;
+    font-style: normal;
+    border-bottom: 1px dashed silver;
+    margin-left: 15px;
+    line-height: 40px;
+}
+/* Intro */
+#realintro{
+    clear: both;
+    width: 100%;height: auto;
+    letter-spacing: 1.5px;
+    word-spacing:1 px;
+}
+#realintro1{
+    line-height: 30px;
+    float: left;
+    font-size: 15px;
+    margin-right: 30px;
+}
+#realintro2{
+    line-height: 30px;
+    float: left;
+    font-size: 15px;
+}
+#realintro3{
+    line-height: 30px;
+    float: left;
+    font-size: 15px;
+    margin-left: 300px;
+}
+#realintro4{
+    line-height: 30px;
+    float: left;
+    font-size: 15px;
+    margin-left: 30px;
+   
+}
+/* Comment */
+#realcomment{
+    width: 100%;height: auto;
+    clear: both;   
+}
+#realcomment h1{
+    color: green;
+    font-weight: lighter;
+}
+#ratestar{
+    width: 100%;
+    height: 500px;
+    border: grey 2px solid;
+    margin-bottom: 20px;
+}
+/* End Intro Detail Comment */
+
+
+
+@keyframes texthienra{
+    from{transform: translateY(55%);opacity: 0;}
+    to{transform: translateY(-55px);opacity: 1;}
+}
+
+
+
+
+
+
+
+/* Footer 1 */
+#footer1{
+    margin-top: 10px;
+    clear: both;
+    width: 100%;height: 80px;
+    background-color: rgb(8, 123, 57) ;
+    color: white;
+}
+#realfooter1{
+    width: 1180px;
+    margin: 0 auto;
+}
+#realfooter1 h1,h2{
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    float: left;margin-right: 20px;
+}
+#realfooter1-1 h1{
+    padding-top: 30px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Montserrat-Bold';
+    padding-right: 20px;
+    line-height: 5px;
+}
+#realfooter1-1 h2{
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 5px;
+    padding-top: 15px;
+    display: block;clear: left;
+}
+#realfooter1-5{
+    width: 100px;
+}
+#realfooter1-2 input{
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 38px;
+    width: 180px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    padding-left: 5px;
+}
+#realfooter1-3 input{
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 38px;
+    width: 280px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    margin-right: 8px;
+    padding-left: 5px;
+}
+#realfooter1-4 {
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 38px;
+    width: 180px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+}
+#realfooter1-4:focus{
+    box-shadow: 0 0 5px white;
+}
+#realfooter1-5{
+    background-color: #ffffff;
+    border-radius: 6px;
+    height: 38px;
+    width: 170px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    margin-left: 8px;
+    color: green;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+/* End Footer 1 */
+/* Footer 2 */
+#footer2{
+    width: 100%;height:600px;
+    border-bottom: 1px rgb(206, 196, 196) solid;
+    background-color: white;
+}
+#realfooter2{
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    background-color: white;
+}
+.realfooter2-1{
+    float: left;
+    font-family: 'Montserrat-Light' !important;
+    margin-top: 35px;
+}
+.realfooter2-1 h1{
+    color: black;
+    font: 14px "Roboto",Arial,Helvetica,sans-serif;
+   line-height: 0px;
+   text-transform: uppercase;
+   font-weight: normal;
+   margin-bottom: 30px;
+}
+.realfooter2-1 h2 a{
+    /* font: 15px  'Montserrat-Light' sans-serif !important; */
+    font: 13px "Roboto",Arial,Helvetica,sans-serif;
+    white-space: nowrap;
+    font-style: normal;
+    line-height: 25px;
+    color:#888888;
+    letter-spacing: 0.5px;
+}
+.realfooter2-1 h2 a:hover{
+    color: black;
+}
+.realfooter2-1 img{
+    margin: 5px;
+    height: 40px;
+}
+/* ....................................... */
+.realfooter2-2{
+    float: left;
+    font-family: 'Montserrat-Light' !important;
+    margin-top: 35px;
+}
+.realfooter2-2 h1{
+    color: black;
+    font: 14px "Roboto",Arial,Helvetica,sans-serif;
+   line-height: 0px;
+   text-transform: uppercase;
+   font-weight: lighter;
+   margin-bottom: 30px;
+}
+.realfooter2-2 h2 a{
+    /* font: 15px  'Montserrat-Light' sans-serif !important; */
+    font: 13px "Roboto",Arial,Helvetica,sans-serif;
+    white-space: nowrap;
+    font-style: normal;
+    line-height: 30px;
+    color:#888888;
+    letter-spacing: 0.5px;
+}
+.realfooter2-2 h2 a:hover{
+    text-decoration: underline;
+}
+/* End Footer 2 */
+/* Footer 3 */
+#footer3{
+    width: 100%;height:175px;
+    background-color: #ececec;
+}
+#realfooter3{
+    width: 1180px;
+    margin: 0 auto;
+}
+#realfooter3 img{
+    margin-top: 25px;
+    margin-right: 75px;
+    float: left;
+}
+#realfooter3 h1{
+    padding-top: 30px;
+    color: rgb(58, 56, 56);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+#realfooter3 h2{
+    color: rgb(58, 56, 56);
+    font-size: 12px;
+    margin: 0;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+#realfooter3 div{
+    float: left;
+}
+
+/* End Footer 3 */

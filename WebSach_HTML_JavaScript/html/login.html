@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="icon" href="/images/vb_30px.png">
+</head>
+<body>
+    <div id="box" >
+        <div id="realbox" >
+            <!--  -->
+            <form action = "/html/index.html" name = "myForm" onsubmit = "return(validate());">
+                <!--  -->
+            <div id="realbox1">
+                Đăng nhập
+            </div>
+            
+            <!-- Email -->
+            <label for="" id="boxemail">Email*<input type="email"  id="email" name = "EMail" class="input" /></label>
+            <div id="loi1"></div>
+            
+            <!-- Mat khau -->
+            <label for="" style="display:block">Mật khẩu* <input type="password" id="matkhau" name = "Name" class="input"/></label>
+            <div id="loi2"></div>
+            <label for="" id="realbox2"><input type="checkbox">Ghi nhớ thông tin <a href="" style="color:#1f1e1b;margin-left: 40px;text-decoration: none;">Quên mật khẩu ?</a></label>
+            <div style="margin-top: 15PX;margin-bottom: 10px;" id="boxbutton" align="center"> 
+                <input type = "submit" value = "ĐĂNG NHẬP"  style="background-color:#29BD04 ;color: white;width: 200px;height: 50px;font-size: 22px;border: none;border-radius: 10px;"/>
+            </div>
+        </form>
+          <!-- End form  -->
+            <div style="margin-left: 170px;">Có tài khoản vui lòng <a href="/html/registration.html">ĐĂNG KÝ</div>
+                <div id="realbox4">
+                <p style="margin-left: 70px;">Hoặc đặng nhập bằng :</p>
+                    <a href=""><img src="/images/google_signin_dark.png" alt="" style="margin-left: 70px;"></a>
+                    <a href=""><img src="/images/facebook_signin_dark.png " style="height: 40px;width: 250px;"></a>
+                </div>
+            </div>
+    </div>
+    <script src="registration.js"></script>
+
+</body>
+</html> 
